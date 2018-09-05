@@ -1,0 +1,23 @@
+[
+  {
+    'repeat(20, 10)': {
+      id: '{{index()}}',
+      un: '{{firstName()}}',
+      pw: '{{firstName()}}',
+      bk: '{{random("HDFC", "ICICI", "SBI","AXIS","RBL")}}',
+      ccn: '{{integer(0, 10000000000000001)}}',
+      cccv:  '{{integer(100, 1000)}}',
+      ccexp:'{{random("11/12", "12/11", "10/01")}}',
+      ccpin:'{{integer(100,1000)}}',
+      dcn: '{{integer(0, 10000000000000001)}}',
+      dccv: '{{integer(100, 1000)}}',
+      dcexp:'{{random("11/12", "12/11", "10/01")}}',
+      dcpin:'{{integer(100,1000)}}',
+      dcfimg: '',
+      dcbimg: '',
+      ccfimg: '',
+      ccbimg:''
+   
+    }
+  }
+]
